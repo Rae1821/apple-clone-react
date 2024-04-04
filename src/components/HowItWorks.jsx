@@ -71,28 +71,27 @@ const HowItWorks = () => {
         </div>
 
         <div className="hiw-text-container">
-          <div className=" flex justify-center flex-col">
+          <div className="flex justify-center flex-col">
             <p className="hiw-text g_fadeIn">
               A17 Pro is an entirely new class of iPhone chip that delivers our{" "}
               <span className="text-white">
                 best graphic performance by far
               </span>
             </p>
+
+            <p className="hiw-text g_fadeIn">
+              Mobile{" "}
+              <span className="text-white">
+                games will look and feel so immersive{" "}
+              </span>
+              with incredibly detailed environment and characters.
+            </p>
           </div>
-
-          <p className="hiw-text g_fadeIn">
-            Mobile{" "}
-            <span className="text-white">
-              games will look and feel so immersive{" "}
-            </span>
-            with incredibly detailed environment and characters.
-          </p>
-        </div>
-
-        <div className="flex-1 flex justify-center flex-col g_fadeIn">
-          <p className="hiw-text">New</p>
-          <p className="hiw-bigtext">Pro-class GPU</p>
-          <p className="hiw-text">with 6 cores.</p>
+          <div className="flex justify-center flex-col g_fadeIn">
+            <p className="hiw-text">New</p>
+            <p className="hiw-bigtext">Pro-class GPU</p>
+            <p className="hiw-text">with 6 cores.</p>
+          </div>
         </div>
       </div>
     </section>
